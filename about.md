@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title:
 permalink: /about/
 ---
 
-Some information about you!
+I'm an independent iOS/Web Developer and UX enthusiast from San Francisco.
 
-### More Information
+- Check out my [github](http://github.com/carsol)
 
-A place to include any other types of information that you'd like to include about yourself. 
+- Follow my [twitter](http://twitter.com/csolares_).
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+- If you're interested in working together, shoot me an [email](mailto:carlos@loslabs.io)
