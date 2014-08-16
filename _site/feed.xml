@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your Name</title>
-    <description>Web Developer from Somewhere</description>
-    <link></link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <title>Carlos Solares</title>
+    <description>Independent iOS &amp; Web developer in San Francisco, CA</description>
+    <link>http://carsol.github.io</link>
+    <atom:link href="http://carsol.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>You&#39;re up and running!</title>
@@ -15,8 +15,8 @@
 &lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;
 </description>
         <pubDate>Mon, 03 Mar 2014 00:00:00 -0800</pubDate>
-        <link>/Hello-World/</link>
-        <guid isPermaLink="true">/Hello-World/</guid>
+        <link>http://carsol.github.io/Hello-World/</link>
+        <guid isPermaLink="true">http://carsol.github.io/Hello-World/</guid>
       </item>
     
   </channel>
