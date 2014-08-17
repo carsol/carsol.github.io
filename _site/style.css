@@ -363,6 +363,14 @@ hr {
   margin: 45px auto;
 }
 
+.medium-post-list-item {
+  margin: 0 auto;
+}
+
+iframe {
+  margin: 0 auto;
+}
+
 /***********************/
 /* SYNTAX HIGHLIGHTING */
 /***********************/

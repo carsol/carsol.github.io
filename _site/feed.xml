@@ -7,6 +7,19 @@
     <atom:link href="http://carsol.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Why you suck, not the mobile web.</title>
+        <description>&lt;div class=&quot;medium-post-wrapper&quot;&gt;
+    &lt;div class=&quot;medium-post&quot;&gt;
+        &lt;script async=&quot;&quot; src=&quot;https://static.medium.com/embed.js&quot;&gt;&lt;/script&gt;&lt;a class=&quot;m-story&quot; data-collapsed=&quot;true&quot; href=&quot;https://medium.com/@carsol/cd1e233749d8&quot;&gt;Why you suck, not the mobile web.&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 10 Oct 2013 00:00:00 -0700</pubDate>
+        <link>http://carsol.github.io/why-you-suck-not-the-mobile-web/</link>
+        <guid isPermaLink="true">http://carsol.github.io/why-you-suck-not-the-mobile-web/</guid>
+      </item>
+    
+      <item>
         <title>Android EmailComposer PhoneGap 2.6</title>
         <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;I know this is late but could be useful for someone.&lt;/em&gt;&lt;/strong&gt; So lately I’ve had trouble implementing an EmailComposer Plugin for an Android version of PhoneGap 2.6 because there weren’t any instructions on the official plugin’s github page. I figured I would explain the steps to how I implemented it myself.&lt;/p&gt;
 
