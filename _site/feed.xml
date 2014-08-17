@@ -181,5 +181,33 @@
         <guid isPermaLink="true">http://carsol.github.io/android-webkit-tap-highlight-color/</guid>
       </item>
     
+      <item>
+        <title>Disable UIWebView bounce for iOS Phonegap</title>
+        <description>&lt;p&gt;Though this may be a bit out of date, I’m in the process of cleaning out my code snippets and I’ll be tossing a couple ones that were really helpful here.&lt;/p&gt;
+
+&lt;p&gt;Anyways, this was a necessary for PhoneGap apps on iOS for when you didn’t want to have have the elastic effect that you get in WebView or Safari.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;After PhoneGap 1.5.0 and later this is not needed. Just use the plist file. Just set UIWebViewBounce to false&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to hard code it in (not recommended but could be useful!) you’ll need to go to the MainViewController.m and find webViewDidFinishLoad function.&lt;/p&gt;
+
+&lt;p&gt;Add&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-objective-c&quot; data-lang=&quot;objective-c&quot;&gt;&lt;span class=&quot;p&quot;&gt;[[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;theWebView&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;subviews&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;objectAtIndex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;nl&quot;&gt;setBounces&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;NO&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;in the method.&lt;/p&gt;
+
+&lt;p&gt;That’s it! You can also use Javascript to disable touch but it can really hurt the rest of your app if you have touch features (bascially don’t use unless really needed).&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;onload&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ontouchmove&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Wed, 22 May 2013 00:00:00 -0700</pubDate>
+        <link>http://carsol.github.io/disable-uiwebview-bounce-for-ios-phonegap-projects/</link>
+        <guid isPermaLink="true">http://carsol.github.io/disable-uiwebview-bounce-for-ios-phonegap-projects/</guid>
+      </item>
+    
   </channel>
 </rss>
