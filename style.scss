@@ -63,6 +63,11 @@ h2 {
   font-size: 24px;
 }
 
+.h2-link a{
+  font-weight: 400;
+  font-size: 24px;
+}
+
 h3 {
   font-size: 18px;
 }
@@ -178,8 +183,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: 100px;
   overflow: hidden;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -199,6 +204,7 @@ img {
 
 .site-info {
   float: left;
+  margin-top: 15px;
 
   @include mobile {
     float: none;
@@ -298,12 +304,24 @@ footer {
   width: 100%;
 }
 
-footer hr {
+hr {
   border: solid #dddddd;
   border-width: 1px 0 0;
   clear: both;
   margin: 1.25em 0 1.1875em;
   height: 0;
+}
+
+.subheader-links{
+  font-size: 16px;
+  color: #007998;
+  margin: -10px 0;
+}
+
+.work-screenshot{
+  max-height: 500px;
+  display: block;
+  margin: 45px auto;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
