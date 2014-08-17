@@ -3,8 +3,8 @@
   <channel>
     <title>Carlos Solares</title>
     <description>iOS &amp; Web developer, San Francisco</description>
-    <link>http://carsol.github.io</link>
-    <atom:link href="http://carsol.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.carlossolares.com</link>
+    <atom:link href="http://www.carlossolares.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Why you suck, not the mobile web.</title>
@@ -15,8 +15,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Thu, 10 Oct 2013 00:00:00 -0700</pubDate>
-        <link>http://carsol.github.io/why-you-suck-not-the-mobile-web/</link>
-        <guid isPermaLink="true">http://carsol.github.io/why-you-suck-not-the-mobile-web/</guid>
+        <link>http://www.carlossolares.com/why-you-suck-not-the-mobile-web/</link>
+        <guid isPermaLink="true">http://www.carlossolares.com/why-you-suck-not-the-mobile-web/</guid>
       </item>
     
       <item>
@@ -70,8 +70,8 @@
 
 </description>
         <pubDate>Wed, 07 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://carsol.github.io/android-emailcomposer-phonegap-2-6/</link>
-        <guid isPermaLink="true">http://carsol.github.io/android-emailcomposer-phonegap-2-6/</guid>
+        <link>http://www.carlossolares.com/android-emailcomposer-phonegap-2-6/</link>
+        <guid isPermaLink="true">http://www.carlossolares.com/android-emailcomposer-phonegap-2-6/</guid>
       </item>
     
       <item>
@@ -102,8 +102,8 @@
 &lt;p&gt;Reason why I love it so far is because it lets me work directly in the file in Sublime Text. I think it’s prefect for PhoneGap implementation because after I make my edits in Chrome or Sublime, save the file and re-complie. That’s it! Nothing changes, except the fact that I don’t have to spend as much time guesstimating and more time testing out designs.&lt;/p&gt;
 </description>
         <pubDate>Tue, 06 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://carsol.github.io/emmet-livestyle-changes-the-game/</link>
-        <guid isPermaLink="true">http://carsol.github.io/emmet-livestyle-changes-the-game/</guid>
+        <link>http://www.carlossolares.com/emmet-livestyle-changes-the-game/</link>
+        <guid isPermaLink="true">http://www.carlossolares.com/emmet-livestyle-changes-the-game/</guid>
       </item>
     
       <item>
@@ -155,8 +155,8 @@
 &lt;iframe width=&quot;100%&quot; height=&quot;300&quot; src=&quot;http://jsfiddle.net/csolares23/CLPKV/embedded/&quot; allowfullscreen=&quot;allowfullscreen&quot; frameborder=&quot;0&quot; style=&quot;width: 620px; height: 300px;&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Tue, 06 Aug 2013 00:00:00 -0700</pubDate>
-        <link>http://carsol.github.io/Knockout-js-checkbox-all/</link>
-        <guid isPermaLink="true">http://carsol.github.io/Knockout-js-checkbox-all/</guid>
+        <link>http://www.carlossolares.com/Knockout-js-checkbox-all/</link>
+        <guid isPermaLink="true">http://www.carlossolares.com/Knockout-js-checkbox-all/</guid>
       </item>
     
       <item>
@@ -177,8 +177,8 @@
 &lt;p&gt;&lt;a href=&quot;/images/android-webkit-tap-highlight-color/2.png&quot;&gt;&lt;img src=&quot;/images/android-webkit-tap-highlight-color/2.png&quot; alt=&quot;Android -webkit-tap-highlight-color&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Jul 2013 00:00:00 -0700</pubDate>
-        <link>http://carsol.github.io/android-webkit-tap-highlight-color/</link>
-        <guid isPermaLink="true">http://carsol.github.io/android-webkit-tap-highlight-color/</guid>
+        <link>http://www.carlossolares.com/android-webkit-tap-highlight-color/</link>
+        <guid isPermaLink="true">http://www.carlossolares.com/android-webkit-tap-highlight-color/</guid>
       </item>
     
       <item>
@@ -221,8 +221,8 @@
 
 </description>
         <pubDate>Thu, 23 May 2013 00:00:00 -0700</pubDate>
-        <link>http://carsol.github.io/lock-orientation-ios/</link>
-        <guid isPermaLink="true">http://carsol.github.io/lock-orientation-ios/</guid>
+        <link>http://www.carlossolares.com/lock-orientation-ios/</link>
+        <guid isPermaLink="true">http://www.carlossolares.com/lock-orientation-ios/</guid>
       </item>
     
       <item>
@@ -249,8 +249,8 @@
 
 </description>
         <pubDate>Wed, 22 May 2013 00:00:00 -0700</pubDate>
-        <link>http://carsol.github.io/disable-uiwebview-bounce-for-ios-phonegap-projects/</link>
-        <guid isPermaLink="true">http://carsol.github.io/disable-uiwebview-bounce-for-ios-phonegap-projects/</guid>
+        <link>http://www.carlossolares.com/disable-uiwebview-bounce-for-ios-phonegap-projects/</link>
+        <guid isPermaLink="true">http://www.carlossolares.com/disable-uiwebview-bounce-for-ios-phonegap-projects/</guid>
       </item>
     
   </channel>
