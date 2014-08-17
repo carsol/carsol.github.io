@@ -75,6 +75,38 @@
       </item>
     
       <item>
+        <title>Emmet LiveStyle changes the game</title>
+        <description>&lt;p&gt;I know there are a bunch of live CSS editing tools out there; all of us have tried them and a couple of us use them daily. As a frontend developer, I think it’s key to speeding up the CSS implementation but I don’t use one often. I’ve really liked LiveReload, but it didn’t always help me out since I did a bunch of PhoneGap stuff and I had to complie (depending on the target device, it can be a headache). Well yesterday I was surprised because I think I fell in live with &lt;a href=&quot;http://livestyle.emmet.io/&quot; title=&quot;Emmet LiveStyle&quot;&gt;Emmet LiveStyle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It’s pretty basic.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download the &lt;a href=&quot;https://chrome.google.com/webstore/detail/diebikgmpmeppiilkaijjbdgciafajmg&quot;&gt;Chrome extenstion&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Download the Sublime Text plugin via Package Control&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Enable the extention, sync the css files accordionly&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Code away!&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;(Link to &lt;a href=&quot;http://livestyle.emmet.io/install/&quot;&gt;official instructions&lt;/a&gt;)&lt;/p&gt;
+
+&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://www.youtube.com/embed/iQLhGbkupS4?feature=player_embedded&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot; style=&quot;width: 717px; height: 403px;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Reason why I love it so far is because it lets me work directly in the file in Sublime Text. I think it’s prefect for PhoneGap implementation because after I make my edits in Chrome or Sublime, save the file and re-complie. That’s it! Nothing changes, except the fact that I don’t have to spend as much time guesstimating and more time testing out designs.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 06 Aug 2013 00:00:00 -0700</pubDate>
+        <link>http://carsol.github.io/emmet-livestyle-changes-the-game/</link>
+        <guid isPermaLink="true">http://carsol.github.io/emmet-livestyle-changes-the-game/</guid>
+      </item>
+    
+      <item>
         <title>Knockout.js Checkbox All</title>
         <description>&lt;p&gt;Knockout.js is powerfully awesome. I’ve been learning it for a client and I figured I could explain an example to help anyone else that is new to Knockoutjs.&lt;/p&gt;
 
@@ -125,6 +157,28 @@
         <pubDate>Tue, 06 Aug 2013 00:00:00 -0700</pubDate>
         <link>http://carsol.github.io/Knockout-js-checkbox-all/</link>
         <guid isPermaLink="true">http://carsol.github.io/Knockout-js-checkbox-all/</guid>
+      </item>
+    
+      <item>
+        <title>Android WebKit Tap Highlight Color</title>
+        <description>&lt;p&gt;One aspect of PhoneGap developing apps is that any &lt;code&gt;a href&lt;/code&gt; links on Android app give you a highlighted effect when you touch it. This only happens on Android, but after a little research I was happy I could take it off.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Default:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/android-webkit-tap-highlight-color/1.png&quot;&gt;&lt;img src=&quot;/images/android-webkit-tap-highlight-color/1.png&quot; alt=&quot;Android -webkit-tap-highlight-color&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;With -webkit-tap-highlight-color CSS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;webkit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;rgba&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+ &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;webkit&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;transparent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/android-webkit-tap-highlight-color/2.png&quot;&gt;&lt;img src=&quot;/images/android-webkit-tap-highlight-color/2.png&quot; alt=&quot;Android -webkit-tap-highlight-color&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 21 Jul 2013 00:00:00 -0700</pubDate>
+        <link>http://carsol.github.io/android-webkit-tap-highlight-color/</link>
+        <guid isPermaLink="true">http://carsol.github.io/android-webkit-tap-highlight-color/</guid>
       </item>
     
   </channel>
