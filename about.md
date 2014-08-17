@@ -8,7 +8,7 @@ I'm an independent iOS/Web Developer from San Francisco. I like to work on neat 
 
 -
 
-email: carlos [@] loslabs.io
+email: [carlos [@] loslabs.io]()
 
 twitter: [@csolares\_](http://twitter.com/csolares_)
 
