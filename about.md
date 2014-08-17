@@ -4,10 +4,10 @@ title:
 permalink: /about/
 ---
 
-I'm an independent iOS/Web Developer and UX enthusiast from San Francisco.
+I'm an independent iOS/Web Developer from San Francisco. I like to work on neat projects and consider myself a UX enthusiast.
 
-- Check out my [github](http://github.com/carsol)
+- [email](mailto:carlos@loslabs.io)
 
-- Follow my [twitter](http://twitter.com/csolares_).
+- [github](http://github.com/carsol)
 
-- If you're interested in working together, shoot me an [email](mailto:carlos@loslabs.io)
+- [twitter](http://twitter.com/csolares_)
