@@ -18,7 +18,7 @@ html {
 }
 
 body {
-	background: rgba(241, 241, 241, 0.43);
+	background: #ffffff;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -29,7 +29,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 720px;
   padding: 0 10px;
   width: 100%;
 }
@@ -49,8 +49,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-weight: 500;
-  font-size: 32px;
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 100;
   a {
     color: inherit;
   }
@@ -68,6 +70,16 @@ h3 {
 h4 {
   font-size: 18px;
   color: $gray;
+}
+
+ul, ol, p, a {
+  color: #787878;
+  font-weight: 100;
+}
+
+ul, ol, p {
+  font-size: 1em;
+  line-height: 1.6;
 }
 
 p {
@@ -152,7 +164,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .masthead {
@@ -168,7 +180,11 @@ img {
   float: left;
   width: 70px;
   height: 70px;
-  margin-right: 15px;
+  overflow: hidden;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  margin: 0 15px 0 0;
 
   @include mobile {
     float: none;
@@ -199,6 +215,7 @@ img {
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  text-align: left;
 }
 
 .site-description {

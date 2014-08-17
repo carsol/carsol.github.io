@@ -7,19 +7,6 @@
     <atom:link href="http://carsol.github.io/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>You&#39;re up and running!</title>
-        <description>&lt;p&gt;Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below &lt;img class=&quot;emoji&quot; title=&quot;:point_down:&quot; alt=&quot;:point_down:&quot; src=&quot;https://assets.github.com/images/icons/emoji/unicode/1f447.png&quot; height=&quot;20&quot; width=&quot;20&quot; align=&quot;absmiddle&quot; /&gt;).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/config.png&quot; alt=&quot;_config.yml&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot;&gt;Jekyll Now repository&lt;/a&gt; on GitHub.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 03 Mar 2014 00:00:00 -0800</pubDate>
-        <link>http://carsol.github.io/Hello-World/</link>
-        <guid isPermaLink="true">http://carsol.github.io/Hello-World/</guid>
-      </item>
-    
-      <item>
         <title>Android EmailComposer PhoneGap 2.6</title>
         <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;I know this is late but could be useful for someone.&lt;/em&gt;&lt;/strong&gt; So lately I’ve had trouble implementing an EmailComposer Plugin for an Android version of PhoneGap 2.6 because there weren’t any instructions on the official plugin’s github page. I figured I would explain the steps to how I implemented it myself.&lt;/p&gt;
 
