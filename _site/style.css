@@ -324,16 +324,20 @@ nav a {
   font-size: 15px;
 }
 
-.wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: #eeeeee;
+footer {
+  padding: 50px 0 40px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 720px;
+  width: 100%;
 }
 
-footer {
-  padding: 20px 0;
-  text-align: center;
+footer hr {
+  border: solid #dddddd;
+  border-width: 1px 0 0;
+  clear: both;
+  margin: 1.25em 0 1.1875em;
+  height: 0;
 }
 
 /***********************/
