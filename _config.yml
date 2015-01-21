@@ -22,11 +22,11 @@ footer-links:
   facebook:
   flickr:
   github: carsol/carsol.github.io
-  instagram: carsol
+  instagram: car.sol
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
-  twitter: csolares_
+  twitter: carsol_
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
 
 # Your disqus shortname, entering this will enable commenting on posts
