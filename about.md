@@ -13,3 +13,5 @@ email: [carlos [@] loslabs.io]()
 twitter: [@carsol\_](http://twitter.com/carsol_)
 
 github: [carsol](http://github.com/carsol)
+
+instagram: [car.sol](http://instagram.com/car.sol)
