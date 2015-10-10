@@ -14,6 +14,26 @@ Built with Swift, this little app share your location to multiple people for a t
 
 <hr>
 
+<h2 class="h2-link"><a href="http://moveme.softglas.com/">Move Me</a></h2>
+
+<div class="subheader-links">
+  <a href="http://moveme.softglas.com/">Link</a>
+</div>
+Fun interactive promotional site for Soft Glas, a musician  in Brooklyn, NY.
+<img class="work-screenshot" src="{{ site.baseurl }}/images/move-me.png">
+
+<hr>
+
+<h2 class="h2-link"><a href="http://hoops.city/">Hoops City</a></h2>
+
+<div class="subheader-links">
+  <a href="http://hoops.city/">Link</a>
+</div>
+Rails and Ember side project, HoopsCity aims to help people find basketball courts.
+<img class="work-screenshot" src="{{ site.baseurl }}/images/hoopscity.png">
+
+<hr>
+
 <h2 class="h2-link"><a href="http://www.01click.net/">Conversations by 01Click</a></h2>
 
 <div class="subheader-links">
