@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-I'm an independent iOS/Web Developer from San Francisco. I like to work on neat projects and consider myself a UX enthusiast.
+Web & iOS developer from San Francisco. I consider myself a UX enthusiast but I'm good at building apps that grow companies :) I'm not looking for new projects, sorry!
+
+My current frameworks/languages include: Ember.js, Rails, Swift
 
 -
 
