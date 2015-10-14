@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Web & iOS developer from San Francisco. I consider myself a UX enthusiast but I'm good at building apps that grow companies :) I'm not looking for new projects, sorry!
+Hey there! I'm a generalist developer from San Francisco, CA. I specialize in complex web apps and iOS apps but I've worked in many different roles depending on what needs to get done.
 
 My current frameworks/languages include: Ember.js, Rails, Swift
 
