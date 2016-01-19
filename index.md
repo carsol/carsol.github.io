@@ -11,7 +11,7 @@ My current frameworks/languages include: Ember.js, Rails, Swift
 
 email: [carlos [@] loslabs.io]()
 
-twitter: [@carsol\_](http://twitter.com/carsol_)
+twitter: [@carlosasolares](http://twitter.com/carlosasolares)
 
 github: [carsol](http://github.com/carsol)
 
