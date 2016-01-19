@@ -10,15 +10,17 @@ I like running node processes with the `--debug` flag. I know there are other wa
 
 It should look like this:
 
-```
+{% highlight javascript %}
 node --debug file_to_debug.js
-```
+{% endhighlight %}
 
 
 **At this point you can debug via node-inspector or terminal.**
 
 ### Using Node-inspector:
-[Node-inspector](https://github.com/node-inspector/node-inspector) can attach itself to different processes if needed by changing the port. All you have to do is run `node-inspector` in another terminal window then go to `http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=<debugging port>`
+[Node-inspector](https://github.com/node-inspector/node-inspector) can attach itself to different processes if needed by changing the port. All you have to do is run `node-inspector` in another terminal window then go to
+
+`http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=<debugging port>`
 
 You can then change the debugging port to inspect different processes. Start from port 5858 and move 1 up for every process.
 
@@ -38,6 +40,6 @@ Then you can basic terminal commands once debugging:<br>
 `out`, `o` - Step out <br>
 `pause` - Pause running code (like pause button in Developer Tools) <br>
 
-You can find all of the terminal commands at [How to use node debugger - key commands](https://nodejs.org/api/debugger.html)
+You can find all of the terminal commands at The [Node.js Documentation for Debugger](https://nodejs.org/api/debugger.html)
 
 After happy debugging!
