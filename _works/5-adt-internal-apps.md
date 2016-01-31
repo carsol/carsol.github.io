@@ -25,3 +25,5 @@ Directory of HR Polices at ADT for employees to check out.
 App that gave people going to an ADT conventions all kinds of information.
 
 <iframe style="margin-top: 40px;" src="//player.vimeo.com/video/65975836" width="244" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<hr>

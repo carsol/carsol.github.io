@@ -49,9 +49,9 @@ url: http://www.carlossolares.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+# paginate options
+paginate: 4
+paginate_path: "/page-:num/"
 
 markdown: kramdown
 highlighter: pygments
@@ -69,6 +69,7 @@ sass:
 gems:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
