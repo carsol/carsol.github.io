@@ -1,6 +1,16 @@
 .post {
+  h1 {
+    a {
+      font-weight: lighter;
+    }
+  }
+
   a {
     font-weight: bold;
+
+    &.read-more {
+      font-weight: normal;
+    }
   }
   img {
     padding: 1em;
