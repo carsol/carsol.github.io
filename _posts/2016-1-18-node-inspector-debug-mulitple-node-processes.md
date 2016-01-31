@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Tips for debugging Node.js
+title: Tips for debugging multiple Node.js processes
 ---
 
-Here are some tips for debugging node.js. I had some trouble debugging multiple processes early on, but I realized a couple things I want to note. Hopefully they can help!
+Here are some quick tips for debugging multiple node.js. I had some trouble debugging multiple processes early on, but I realized a couple things I want to note. Hopefully they can help!
 
 ### Debugging mulitple node processes
 I like running node processes with the `--debug` flag. I know there are other ways (like using `node-debug app.js`) but I found doing this was best for dealing with many processes, mostly because you can still use node-inspector or terminal without much issue. [If you need extra info here might be a good spot to start.](https://github.com/node-inspector/node-inspector#2-enable-debug-mode-in-your-node-process)
 
-It should look like this:
+It should look something like this:
 
 {% highlight javascript %}
 node --debug file_to_debug.js
@@ -23,6 +23,9 @@ node --debug file_to_debug.js
 `http://127.0.0.1:8080/?ws=127.0.0.1:8080&port=<debugging port>`
 
 You can then change the debugging port to inspect different processes. Start from port 5858 and move 1 up for every process.
+
+If you want to know what process you're debugging you can find out by using adding a watch expression `process.pid` <br>
+<img src="{{ site.baseurl }}/images/node-inspector-pid.png">
 
 
 ### Using Terminal:
