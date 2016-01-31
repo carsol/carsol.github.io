@@ -45,4 +45,4 @@ Then you can basic terminal commands once debugging:<br>
 
 You can find all of the terminal commands at The [Node.js Documentation for Debugger](https://nodejs.org/api/debugger.html)
 
-After happy debugging!
+Happy debugging!
