@@ -6,7 +6,7 @@ permalink: /about/
 
 Hey there! I'm a generalist developer from San Francisco, CA. I specialize in complex web apps and iOS apps but I've worked in many different roles depending on what needs to get done.
 
-My current frameworks/languages include: Ember.js, Rails, Swift
+My current frameworks/languages include: Ember.js, Swift, Node.js
 
 -
 
