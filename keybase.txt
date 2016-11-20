@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/carsol
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://carlossolares.com
+  * I am carsol (https://keybase.io/carsol) on keybase.
+  * I have a public key with fingerprint 89E9 AF63 6918 29D4 E012  2B41 349D 573B 6E2C 9931
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b0c932acfdc561136917341a68d2ecaaec84e1481cb084f8c3bfd090d52f1e920a",
+            "fingerprint": "89e9af63691829d4e0122b41349d573b6e2c9931",
+            "host": "keybase.io",
+            "key_id": "349d573b6e2c9931",
+            "kid": "0101b0c932acfdc561136917341a68d2ecaaec84e1481cb084f8c3bfd090d52f1e920a",
+            "uid": "c0cfbd86466151231b957bf4fc24a519",
+            "username": "carsol"
+        },
+        "service": {
+            "hostname": "carlossolares.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1479621216,
+    "expire_in": 157680000,
+    "prev": "1de8715b73395c75638ea16e84e8927e04b44510e70613b6f47af377bc504d66",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.58
+Comment: https://keybase.io/crypto
+
+yMIlAnicrVJdSBVBGL1ampn2ow9GmNESISG6szs7u3sxUDJNEn1I7Ufhujs7q4t6
+97q7XjW7YYhBPWQRGQoSEhjRg1KJphJmCpEKSSBYipFB9BBWWkSSNitFLz02L8N8
+c875znf4xmI3eaLDojrjBl48Hz8fNvGkvdZzCnjLGhnV1BoYbyNTSTYuUqUR2/FV
+GhrjZVjAApXFMs8pWNewgADgkQxEHgIFSRpHsKIQLEECoASwykpQlzCv6hors5rA
+6YDIHKswKYxu+MuJFbAMv0NlJZnIio5cKYmTNUhYwHEqBDyUNUHkVUQ4LMs8oMQK
+03YZ1Jyq2CTVMGmNPnwb9v6B/8++azfkMIt1VZMQRAgIgOOBKguiqkMdc1ARgOwC
+bWL5lWriohXLNquYUApDa0EDEzdWd46//1WmTSGKRexUbFZTesAyHRNTlpepcJyA
+12U7DQEXXkdU328hn2r4NZokJQSJZRumn/ECisSO4SoDKMqIAxxAKQypDxgW8Rku
+QhCRxNLjtiFBKgk0IolAUEWelwUsCoiXiAIQoYFIMicSFqoQCoAlIosAjVeHoqLz
+oqhigYUaQow7Wo3fZLyQ2lTKqaRtlPsVp9YiTGh0pHSzJyzaExkR7m6YJ3rrzj97
+xzZHeS7HO99n8H20+1P/43603rclraE3cVff1LvVaw1dratD1/Wps4Pli+BGW0lf
+C7r1oLe2ZO1K84+xkn3Th6yHNWnFj2JOxGaeLj2p9vuHnPkDztzFgttHcuFcbn3Z
+SMzkTPZU8fTKt+zqpJzW9S/C4eXx2aaUweNdRRNOb6h9KCE/LnJhuPHc07GJjG6w
+1L2sDyce3TMf/yp98HOoILkt6+7imljU2u5c6Dko97xcQD8v7X1/Jn9gIZh+M3Il
+rbK7cE2/WvZx/zNSeOxtR0dhKKn4Q96oLeV8vZeUOTsZXOpMKM1KzUkVkvvyJmFk
+RuIObrylMCJYt13b1vi66U74m19JyECM
+=+O+a
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/carsol
+
+==================================================================
