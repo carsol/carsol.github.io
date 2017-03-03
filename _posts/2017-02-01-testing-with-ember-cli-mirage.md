@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Testing with Ember CLI Mirage
+date: 2017-03-02
 ---
 
 Almost every Ember app needs to communicate with an API and every Ember app needs tests (eh, right?). So what do you do when you have to make API calls in your Ember tests?
