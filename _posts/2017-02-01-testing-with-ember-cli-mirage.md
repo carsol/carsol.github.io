@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is a Mirage: Testing with Ember CLI Mirage
+title: Testing with Ember CLI Mirage
 ---
 
 Tested against: Ember 2.10.0, Ember Mirage CLI 0.2.2
