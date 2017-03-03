@@ -3,9 +3,6 @@ layout: post
 title: Testing with Ember CLI Mirage
 ---
 
-Tested against: Ember 2.10.0, Ember Mirage CLI 0.2.2
-
-### What is Ember CLI Mirage?
 Almost every Ember app needs to communicate with an API and every Ember app needs tests (eh, right?). So what do you do when you have to make API calls in your Ember tests?
 
 Ember CLI Mirage can solve this issue in an elegant way. I like to look at it as a mock node server that is primarily used for testing but can also be used by the actual ember app for demonstrating your app!
@@ -94,3 +91,5 @@ this.passthrough('/write-coverage');
 - There is so (too?) much more. Thank you for making a great library [@samselikoff](https://twitter.com/samselikoff)!
 
 [Ember CLI Mirage homepage](http://www.ember-cli-mirage.com/)
+
+Tested against: Ember 2.10.0, Ember Mirage CLI 0.2.2
