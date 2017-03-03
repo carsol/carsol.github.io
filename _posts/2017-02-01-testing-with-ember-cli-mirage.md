@@ -81,6 +81,8 @@ this.post('/tasks', (schema, request) => {
 ### Working example
 - Here is a [Ember Twiddle](https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?openFiles=mirage.scenarios.default.js%2C) ([based off this Twiddle](https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?openFiles=mirage.config.js%2C)) that really demos the abilities of Ember Mirage. It has Mirage models (factories), serializer, endpoints, and also some tests. I highly recommend checking it out.
 
+<div style="position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 56.25%;"><iframe src="https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?fullScreen=true" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
+
 ### Other tips
 - Though code coverage isn't perfect I recommend using it. [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) is a good option. You'll have to allow a passthrough for it so that it doesn't get caught by Mirage. You can do that by adding this in your `config.js`:
 ```javascript
