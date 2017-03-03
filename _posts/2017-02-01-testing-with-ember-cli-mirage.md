@@ -36,7 +36,7 @@ It's relatively quick to get started also. Here are the basic steps:
 `ember install ember-cli-mirage`
 
 ### Do some configuration
-In `environment.js`  set `ENV['ember-cli-mirage']` to `true` for testing and `false` for everything else (unless you want to use it for different environments like development and production. More configurations at http://www.ember-cli-mirage.com/docs/v0.2.x/configuration/
+In `environment.js`  set `ENV['ember-cli-mirage']` to `true` for testing and `false` for everything else (unless you want to use it for different environments like development and production. More configurations at [Mirage's docs](http://www.ember-cli-mirage.com/docs/v0.2.x/configuration/).)
 
 ### Begin with stubs
 You'll thank yourself. In my opinion, it's okay to start off with basic tests and drill as you progress.
