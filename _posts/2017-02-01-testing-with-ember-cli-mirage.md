@@ -45,8 +45,9 @@ Lets say I have a To Do list app and I want to test if I click on the checkbox t
 
 You can do it by doing something like this:
 ```  
-  this.get('/tasks', () => {
+this.get('/tasks', () => {
     return {"data":[{"id":"b3c21d7a-2843-47f1-89af-1ef1eb195966","type":"task","attributes":{"name":"Do Homework","modified-time":"2016-09-21T17:09:39.566+00:00"}},{"id":"24cc0aca-2034-4d07-bf4b-ddda5d161416","type":"task","attributes":{"name":"Read book","modified-time":"2016-09-20T17:32:09.697+00:00"}});
+});    
 ```
 
 So now when testing Ember will fetch from here. Simple enough right?
