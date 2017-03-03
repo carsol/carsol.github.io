@@ -4,16 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Hey there! I'm a generalist developer from San Francisco, CA. I specialize in complex web apps and iOS apps but I've worked in many different roles depending on what needs to get done.
-
-My current frameworks/languages include: Ember.js, Swift, Node.js
+Hey there! I'm a Software Engineer currently working for Netflix building studio apps. Here you can find some of my past [work](work/) and [thoughts](/).
 
 -
-
-email: [carlos [@] loslabs.io]()
 
 twitter: [@carlosasolares](http://twitter.com/carlosasolares)
 
 github: [carsol](http://github.com/carsol)
-
-linkedin: [carlossolares](https://www.linkedin.com/in/carlossolares)
