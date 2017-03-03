@@ -5,9 +5,10 @@
 
 code, .highlight {
   background-color: $darkerGray;
-  padding: 5px 10px;
+  color: #DCDCDC;  
   margin: 20px 0;
-  color: #DCDCDC;
+  overflow: scroll;
+  padding: 5px 10px;  
 }
 
 code, .highlight pre {
