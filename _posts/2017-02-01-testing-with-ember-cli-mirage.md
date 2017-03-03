@@ -52,7 +52,7 @@ You can do it by doing something like this:
 So now when testing Ember will fetch from here. Simple enough right?
 
 Well what if you need to create a task?
-```
+```javascript
 this.post('/tasks', (schema, request) => {
     return {"data":[{"id":"b41fe5e4-24ce-4e2c-8af4-8606dcecb025","type":"task","attributes":{"name":"New task!","modified-time":"2016-09-22T10:02:09.016+00:00"}});
 });
@@ -64,7 +64,7 @@ Stubbing out can be good to quickly get tests up and running but that most likel
 
 ### Create dynamic models using factories
 Time to replace `/tasks` with Factory Girl style factories. Here is where the real magic happens! Lets make it so that it dynamically creates new tasks so we can test better.
-```
+```javascript
 this.post('/tasks', (schema, request) => {
   const params = JSON.parse(request.requestBody);
 
@@ -82,7 +82,7 @@ this.post('/tasks', (schema, request) => {
 
 ### Other tips
 - Though code coverage isn't perfect I recommend using it. [ember-cli-code-coverage](https://github.com/kategengler/ember-cli-code-coverage) is a good option. You'll have to allow a passthrough for it so that it doesn't get caught by Mirage. You can do that by adding this in your `config.js`:
-```
+```javascript
 this.passthrough('/write-coverage');  
 ```
 
