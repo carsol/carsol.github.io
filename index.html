@@ -10,7 +10,7 @@ layout: default
 
       <div class="entry">
         {{ post.content | truncatewords:30}}
-        <div class="date">{{ post.date | date: "%m/%d/%Y"}}</div>
+        <div class="date float-right">{{ post.date | date: "%m/%d/%Y"}}</div>
       </div>
       {{ post.content.length }}
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
