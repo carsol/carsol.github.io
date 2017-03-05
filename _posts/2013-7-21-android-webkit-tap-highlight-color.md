@@ -11,11 +11,11 @@ One aspect of PhoneGap developing apps is that any `a href` links on Android app
 
 **With -webkit-tap-highlight-color CSS**
 
-{% highlight css %}
+```css
 html {
 -webkit-tap-highlight-color: rgba(0,0,0,0);
  -webkit-tap-highlight-color: transparent;
 }
-{% endhighlight %}
+```
 
 [![Android -webkit-tap-highlight-color]({{ site.baseurl }}/images/android-webkit-tap-highlight-color/2.png)]({{ site.baseurl }}/images/android-webkit-tap-highlight-color/2.png)

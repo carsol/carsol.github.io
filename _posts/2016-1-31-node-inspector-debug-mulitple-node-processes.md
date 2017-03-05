@@ -10,9 +10,9 @@ I like running node processes with the `--debug` flag. I know there are other wa
 
 It should look something like this:
 
-{% highlight javascript %}
+```javascript
 node --debug file_to_debug.js
-{% endhighlight %}
+```
 
 
 **At this point you can debug via node-inspector or terminal.**
@@ -31,7 +31,7 @@ If you want to know what process you're debugging you can find out by using addi
 ### Using Terminal:
 Open another terminal window and run:
 
-```
+```javascript
 node debug localhost:<debugging port>
 ```
 

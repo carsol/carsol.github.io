@@ -14,18 +14,18 @@ First off thank you to [Dpa99c](http://stackoverflow.com/users/777265/dpa99c) fr
   add **emailcomposer.js** into your www folder and include it in your index.html
 
   add **EmailComposer.java** to your build. I added it into
-  {% highlight HTML %}
+  ```HTML
   src/com/phonegap/plugins/emailComposer/EmailComposer.java
-  {% endhighlight %}
+  ```
 
 3. Edit **config.xml** to include plugin by adding
-{% highlight HTML %}
+```html
 <plugin name="EmailComposer" value="org.apache.cordova.plugin.EmailComposer"/>
-{% endhighlight %}
+```
 
 
 4. Then finally you can add the javascript to make it work. You would use something like this (I passed in a couple variables in this example):
-{% highlight javascript %}
+```javascript
 cordova.require('cordova/plugin/emailcomposer').showEmailComposer(
                 function() { console.log( 'successfully called email composer' ); },
                 function() { console.log( 'failed to call email composer' ); },
@@ -37,12 +37,12 @@ cordova.require('cordova/plugin/emailcomposer').showEmailComposer(
                 true,
                 ["image.jpg", "file.zip"]
             );
-{% endhighlight %}
+```
 
 Works just fine on my Nexus 7. Just for safe measure here is the callable interface:
-{% highlight javascript %}
+```javascript
 window.plugins.emailComposer.showEmailComposerWithCallback(callback,subject,body,toRecipients,ccRecipients,bccRecipients,isHtml,attachments);
-{% endhighlight %}
+```
 
 You can find more information from the official plugin github [here](https://github.com/csolares23/phonegap-plugins/tree/master/Android/EmailComposerWithAttachments). You can also download my sample project [here](https://github.com/csolares23/Android-EmailComposer-Phonegap-2.6).
 

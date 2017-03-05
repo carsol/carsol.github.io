@@ -9,16 +9,16 @@ I found this answer on [StackOverflow](http://stackoverflow.com/questions/128130
 
 In **AppDelegate.m** add this to the bottom.
 
-{% highlight objective-c %}
+```objective-c
 - (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window
 {
      return (UIInterfaceOrientationMaskAll);
 }
-{% endhighlight %}
+```
 
 Then in the **MainViewController.m** you can add this if you want only Portrait:
 
-{% highlight objective-c %}
+```objective-c
 - (BOOL)shouldAutorotate
 {
      return YES;
@@ -27,22 +27,22 @@ Then in the **MainViewController.m** you can add this if you want only Portrait:
 {
      return (UIInterfaceOrientationMaskPortrait);
 }
-{% endhighlight %}
+```
 
 For Landscape do this instead:
 
-{% highlight objective-c %}
+```objective-c
 - (NSUInteger)supportedInterfaceOrientations
 {
     return (UIInterfaceOrientationMaskAllButUpsideDown);
     //OR return (UIInterfaceOrientationMaskAll);
 }
-{% endhighlight %}
+```
 
 Now, if you want to do some changes when Orientation changes, then use this function.
 
-{% highlight objective-c %}
+```objective-c
 - (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
 {
 }
-{% endhighlight %}
+```
