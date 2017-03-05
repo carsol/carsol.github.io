@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {
   color: $darkerGray;
   font-weight: 600;
 
-  line-height: 1.7;
-  margin: 1em 0 1em;
+  line-height: 1;
+  margin: 2em 0 0;
   padding: 0;
 
   @include mobile {
@@ -140,8 +140,13 @@ img {
 
 .date {
   color: $gray;
-  font-style: italic;	
+  font-style: italic;
 }
+
+.post .date {
+  text-align: right;
+}
+
 
 // Specify the color of the selection
 ::-moz-selection {
@@ -219,7 +224,7 @@ img {
 }
 
 .site-name {
-  margin: 0;
+  margin: 0.2em 0 0.3em 0;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
