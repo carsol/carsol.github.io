@@ -18,7 +18,7 @@ These things can be true. My advice is that you should start small and increment
 
 ## Benefits
 There are a lot of good reasons why you should use Migrate. Here are a couple:
-- Can be run in CI
+- Can be ran in CI
 - Dynamic endpoints allows for more in-depth acceptance tests
 - Could be used as a minimal server for validating ideas
 
@@ -40,9 +40,9 @@ It's relatively quick to get started also. Here are the basic steps:
 In `environment.js`  set `ENV['ember-cli-mirage']` to `true` for testing and `false` for everything else (unless you want to use it for different environments like development and production). More configurations at [Mirage's docs](http://www.ember-cli-mirage.com/docs/v0.2.x/configuration/).
 
 ## Begin with stubs
-You'll thank yourself. In my opinion, it's okay to start off with basic tests and drill as you progress.
+I recommend starting with stubs if you're adding Mirage to an existing app that already has an API. You'll thank yourself. In my opinion, it's okay to start off with basic tests and drill down as you progress.
 
-Lets say I have a todo list app and I want to test if I click on the checkbox to finish a task, that it goes away. If you already have a real API endpoint for getting my latest tasks, I can just copy the payload from that and stub out that request in Mirage.
+Lets say I have a todo list app and I want to test if I click on the checkbox to finish a task, that it goes away. If you already have a real API endpoint for getting the user's latest tasks, this part is easy. I can just copy the payload from the request and stub out that request in Mirage.
 
 You can do it by doing something like this:
 ```javascript
@@ -94,7 +94,7 @@ This will only return one static task, which obviously isn't ideal but it's a pl
 Stubbing out can be good to quickly get tests up and running but that most likely won't help you cover most your app functionality.
 
 ## Create dynamic models using factories
-Time to replace `/tasks` with Factory Girl style factories. Here is where the real magic happens! Lets make it so that it dynamically creates new tasks so we can test better.
+Time to replace `/tasks` with [Factory Girl](https://github.com/thoughtbot/factory_girl) style factories. Here is where the real magic happens! Lets make it so that it dynamically creates new tasks so we can test better.
 ```javascript
 this.post('/tasks', (schema, request) => {
   const params = JSON.parse(request.requestBody);
@@ -109,7 +109,7 @@ this.post('/tasks', (schema, request) => {
 
 
 ## (Somewhat) Working example
-Here is a [Ember Twiddle](https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?openFiles=mirage.scenarios.default.js%2C) ([based off this Twiddle](https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?openFiles=mirage.config.js%2C)) that really demos the abilities of Ember Mirage. It has Mirage models (factories), serializer, endpoints, and also some tests. I highly recommend checking it out.
+Here is a [Ember Twiddle](https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?openFiles=mirage.scenarios.default.js%2C) ([based off this Twiddle](https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?openFiles=mirage.config.js%2C)) that  demonstrates the abilities of Ember Mirage. It has Mirage models (factories), serializer, endpoints, and also some tests. I highly recommend checking it out.
 
 <div style="position: relative; height: 0px; overflow: hidden; max-width: 100%; padding-bottom: 56.25%;"><iframe src="https://ember-twiddle.com/03aa10f0323d50ccd737154476f3edb9?fullScreen=true" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe></div>
 
