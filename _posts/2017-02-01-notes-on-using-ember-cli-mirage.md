@@ -120,11 +120,10 @@ Though code coverage isn't perfect I recommend using it. [ember-cli-code-coverag
 this.passthrough('/write-coverage');
 ```
 
-Namespace requests by adding `this.namespace = '/api/v1';` in `config.js`
+Also you can namespace requests by adding `this.namespace = '/api/v1';` in `config.js`
 
-## Other tips
-- This is a very broad overview, there is so much more. Thank you for making a great library [@samselikoff](https://twitter.com/samselikoff)!
+This is a very broad overview, there is so much more. Thank you for making a great library [@samselikoff](https://twitter.com/samselikoff)!
 
 [Ember CLI Mirage homepage](http://www.ember-cli-mirage.com/)
 
-Tested against: Ember 2.10.0, Ember Mirage CLI 0.2.2
+*Tested against: Ember 2.10.0, Ember Mirage CLI 0.2.2*
