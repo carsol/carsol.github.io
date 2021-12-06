@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why you suck, not the mobile web.
+title: Why the mobile web doesn't suck.
 ---
 <div class="medium-post-wrapper">
     <div class="medium-post">
