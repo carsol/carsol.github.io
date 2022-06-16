@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hey there! I'm a Senior Software Engineer currently working for Netflix building backend services.
+Hey there! I'm a Senior Software Engineer currently building backend services for Netflix.
 
 -
 
