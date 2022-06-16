@@ -8,6 +8,6 @@ Hey there! I'm a Senior Software Engineer currently working for Netflix building
 
 -
 
-twitter: [@carlosasolares](http://twitter.com/carlosasolares)
+twitter: [@carsol_](http://twitter.com/carsol_)
 
 github: [carsol](http://github.com/carsol)
